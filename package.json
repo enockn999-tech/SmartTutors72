@@ -1,0 +1,15 @@
+{
+  "name": "smarttutors72",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "SmartTutors72 writing services storefront and order management",
+  "engines": { "node": ">=24.0.0" },
+  "scripts": {
+    "dev": "node server.mjs",
+    "start": "node server.mjs",
+    "create-admin": "node server.mjs create-admin",
+    "test": "node --test test/*.test.mjs",
+    "check": "node --check server.mjs && node --check public/app.js"
+  }
+}

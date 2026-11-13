@@ -1,0 +1,36 @@
+SMARTTUTORS72 WEBSITE
+
+1. Install Node.js 24 or newer from https://nodejs.org/.
+2. Extract the ZIP.
+3. Open a terminal inside the smarttutors72 folder.
+4. Run: npm start
+5. Open: http://localhost:3000
+
+No npm installation or build command is needed.
+
+Create your administrator account in another terminal:
+  npm run create-admin
+
+Then log in through the website. Your account opens the admin dashboard.
+
+The site uses your confirmed details:
+  SmartTutors72
+  U.S.-based, serving worldwide
+  smarttutors72@gmail.com
+  Starting at USD $10 per page
+
+The order system works locally. Live payments and password-reset email
+require your own provider credentials. Set your words-per-page definition
+and approved business policies before enabling payments.
+
+Read README.md for the complete setup, customization, and hosting guide.
+
+The main frontend files are:
+  public/index.html
+  public/styles.css
+  public/app.js
+
+The backend is:
+  server.mjs
+
+Do not double-click index.html. Start the Node server and use the web address.
